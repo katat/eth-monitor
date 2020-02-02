@@ -30,11 +30,11 @@
   }
 
   async function init() {
-    currentPrice = await getLatestPrice()
+    const lastestPrice = await getLatestPrice()
+    updatePrice(lastestPrice)
 
     getPriceSource(10000).subscribe(newPrice => {
-      currentPrice = newPrice || currentPrice
-      priceCountUp.update(currentPrice)
+      updatePrice(newPrice || currentPrice)
     })
 
     getBlockSource().subscribe(data => {
@@ -74,6 +74,11 @@
 
   function formatEther(wei) {
     return parseFloat(Web3.utils.fromWei(wei))
+  }
+
+  function updatePrice(price) {
+    currentPrice = price
+    priceCountUp.update(price)
   }
 
   function createChart() {
