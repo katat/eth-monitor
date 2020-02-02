@@ -8,17 +8,9 @@
     "build": "cross-env NODE_ENV=production webpack -p",
     "dev": "webpack-dev-server --content-base public --port 5000"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aragonone/js-challenge.git"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aragonone/js-challenge/issues"
-  },
-  "homepage": "https://github.com/aragonone/js-challenge#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "countup.js": "^2.0.4",
