@@ -1,1 +1,4 @@
-main.svelte-yoigby{text-align:center;padding:1em;margin:0 auto}
+main.svelte-1v7d0s6.svelte-1v7d0s6{text-align:center;padding:1em;margin:0 auto}.stats-container.svelte-1v7d0s6.svelte-1v7d0s6{display:flex;margin:50px auto}.stats.svelte-1v7d0s6.svelte-1v7d0s6{flex:1}.stats.graph.svelte-1v7d0s6.svelte-1v7d0s6{cursor:pointer}.stats.svelte-1v7d0s6 .value.svelte-1v7d0s6{font-size:2rem}.stats.svelte-1v7d0s6 .label.svelte-1v7d0s6{font-size:0.8rem;text-transform:uppercase}.stats.svelte-1v7d0s6 #accumulated-transfers.graph-enabled.svelte-1v7d0s6{color:#a8d8ea
+  }.stats.svelte-1v7d0s6 #accumulated-fees.graph-enabled.svelte-1v7d0s6{color:#95e1d3
+  }.stats.svelte-1v7d0s6 #accumulated-txs.graph-enabled.svelte-1v7d0s6{color:#fce38a
+  }
