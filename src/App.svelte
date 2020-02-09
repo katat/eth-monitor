@@ -117,6 +117,7 @@
     getBlockSource().subscribe(data => {
       const formattedBlock = formatBlock(data)
       formattedBlocks.push(formattedBlock)
+      formattedBlocks.sort((a, b) => a.timestamp - b.timestamp)
 
       accumulatedTransferredValue += formattedBlock.totalTransferredInUSD
       transferredValueCountUp.update(accumulatedTransferredValue)
